@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Oswald;
+	src: url("../fonts/Oswald-Regular.woff2") format("woff2"), url("../fonts/Oswald-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+    font-family: Oswald;
+	src: url("../fonts/Oswald-Medium.woff2") format("woff2"), url("../fonts/Oswald-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+    font-family: Oswald;
+	src: url("../fonts/Oswald-Bold.woff2") format("woff2"), url("../fonts/Oswald-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+/* =========Перший метод підключення шрифту========= */
+/* h1{
+    font-family: Oswald;
+    font-weight: 700;
+}
+h2{
+    font-family: Oswald;
+    font-weight: 500;
+}
+.mavrinsky-maidan{
+    font-family: Oswald;
+    font-style: oblique;
+} */
+/* =======Другий метод підключення шрифту======== */
+/* .busha{
+    font-family: Roboto;
+    font-style: italic;
+} */
+/* =============Пропрацьовую властивості шрифтів вивчені на 5 уроці========== */
+ /* .rock-temple{
+    font-family: Oswald, serif;
+    font-size: 20px;
+    font-style: italic;
+    color: red;
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 2px 3px 5px rgb(19, 19, 18);
+    text-transform: uppercase;
+    line-height: 1.8;
+    white-space: nowrap;
+    word-spacing: 50px;
+} */
+/* .okonski-dzherela{
+    font-family: Oswald, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(30, 184, 171);
+    text-align: left;
+    text-decoration: underline;
+    text-transform: lowercase;
+    letter-spacing: 10px;
+    background-color: yellow;
+    padding: 40px 40px;
+    margin: 100px 100px;
+}
+.mavrinsky-maidan{
+    font-family: Roboto, cursive;
+    font-size: 40px;
+    color: #1f7909;
+    text-align: right;
+    text-decoration: line-through;
+    text-shadow: 5px 5px 10px #000;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+.mavrinsky-maidan{
+    text-decoration: none;
+    text-transform: none;
+}
+.soledar-lake{
+    font-family: Oswald, fantasy;
+    font-size: 50px;
+    color: rgba(55, 89, 123, 0.5);
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 100px;
+}
+.stone-village{
+    font-family: Roboto, monospace;
+    font-size: 60px;
+    color: yellow;
+    text-align: center;
+    text-decoration: line-through;
+    text-shadow: -3px -3px 5px black;
+    background-color: blue;
+    padding: 20px 50px 70px 90px;
+    margin: 30px 70px 40px 100px;
+}  */
+
+/* ============== Пропрацьовую селектори, комбінації та пріоритетність================ */
+.title h1{
+    color: aqua;
+}
+h1{
+    color: gray;
+}
+.text > h2{
+    color: blue;
+}
+h2{
+    color: brown;
+}
+p{
+    color: red;
+}
+#earth{
+    color: yellow;
+}
+.text .earth{
+    color: green;
+}
+.bird,
+.earth{
+    color:black;
+}
+.text .lake{
+    color: darkgreen;
+}
+div .lake{
+    color: darkorange;
+}
+div p{
+    color: purple;
+}
+/* img ~ p{
+    color: yellow;
+} */
+img + p{
+    color: red;
+}
+a{
+    color: red;
+}
