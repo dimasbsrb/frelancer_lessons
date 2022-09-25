@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Lato;
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+    font-family: Lato;
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+    font-family: Lato;
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+/* body{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+h1{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 30px;
+}
+img{
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+p{
+    margin-bottom: 30px;
+}
+ul{
+    margin: 0 0 30px 50px;
+}
+[class*="__container"]{
+	max-width: 810px;
+	margin: 0 auto;
+}
+.bold-text{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+}
+.text{
+    margin-left: 50px;
+} */
+
+
+
+/* =============home work=============== */
+[class*="-container"]{
+	margin-bottom: 30px;
+    height: 300px;
+}
+.home-work{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-weight: 900;
+    font-size: 46px;
+    text-align: center;
+}
+.color{
+    background-color: green;
+}
+.image{
+    background-color: red;
+    background-image: url(../img/world.jpg);
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-image: linear-gradient(329deg, rgba(131,58,180,1) 0%, rgba(253,138,29,0.7819502801120448) 50%, rgba(252,176,69,1) 100%);
+}
+.position{
+    background: url(../img/nature1.jpg) greenyellow;
+    background-repeat: no-repeat;
+    background-position: -10% 50%;
+    background-position: right;
+    background-position: center;
+    background-position: bottom;
+}
+.attachment{
+    background: url(../img/nature2.jpg) brown;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+    background-attachment: fixed;
+    /* background-attachment: scroll; */
+}
+.size{
+    background: url(../img/nature3.jpg) blue no-repeat center;
+    /* background-size: auto 300px; */
+    background-size: contain;
+    background-size: cover;
+}
+.mix{
+    background: url(../img/nature4.jpg) no-repeat 35% 15% / 400px, url(../img/nature5.jpg) no-repeat left top / 500px, url(../img/nature6.jpg) no-repeat center right / 1000px, linear-gradient(55.95deg, rgba(255, 64, 58, 0.3) 0%, rgba(247, 94, 5, 0.3) 100%);
+    height: 1000px;
+}
+.footer-top{
+    background: rosybrown;
+    text-align: center;
+}
+a{
+    display: inline-block;
+    background: red;
+    width: 100px;
+    height: 50px;
+}
