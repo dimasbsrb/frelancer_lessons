@@ -1,0 +1,24 @@
+.button{
+    display: inline-block;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    padding: 16px 40px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #ffff;
+}
+.button:hover{
+    background: linear-gradient(55.95deg, #db3832 0%, #d65408 100%);
+    transition: all 0.3s ease-out;
+}
+.button--border{
+    background: transparent;
+    color: #F75E05;
+    border: 1px solid #FF3F3A;
+    padding: 15px 40px;
+}
+.button--border:hover{
+    background:#FF3F3A;
+    color: #ffff;
+}
