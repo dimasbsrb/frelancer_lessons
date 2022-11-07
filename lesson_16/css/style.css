@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+body{
+	font-family: "Lato";
+	color: #424551;
+	background-color: #fff;
+}
+
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.wrapper > main{
+	flex-grow: 1;
+}
+[class*="__container"]{
+	max-width: 1275px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.page {
+	
+}
+.page__container {
+	display: flex;
+	justify-content: space-between;
+}
+.page__image {
+	max-width: 435px;
+}
+.page__block{
+
+} 
+.block--page{}
+.block--page__form {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 705px;
+}
+
+.form--block {
+}
+.form--block__subtitle {
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+	margin-bottom: 8px;
+}
+.form--block__title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 40px;
+}
+.block--page__form {
+	display: flex;
+	justify-content: space-between;
+}
+.form--block__info {
+	max-width: 340px;
+	/* gap: 25px; */
+}
+.form--block__info input{
+	width: 340px;
+}
+.form--block__info:not(:last-child){
+	margin-bottom: 24px;
+}
+.form--block__label {
+	display: block;
+	margin-bottom: 10px;
+}
+.form--block__input {
+	height: 52px;
+	border: 1px solid rgb(128, 128, 128);
+}
+.form--block__area {
+	flex: 0 0 100%;
+}
+.area--block{}
+.area--block__label{
+	display: block;
+	margin-bottom: 10px;
+}
+.form--block__area textarea{
+	width: 100%;
+	height: 162px;
+	border: 1px solid rgb(128, 128, 128);
+	margin-bottom: 48px;
+}
+.form--block__check {
+	display: flex;
+	position: relative;
+	max-width: 314px;
+	align-items: center;
+}
+.form--block__input{
+
+}
+.form--block__input_chk {
+	position: absolute;
+	width: 0;
+	height: 0;
+	opacity: 0;
+}
+.label__check{
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+}
+.label__check::before{
+	content: "";
+	flex: 0 0 20px;
+	width: 20px;
+	height: 20px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+.form--block__input_chk:checked + .label__check::before{
+	content: "";
+	background: url("../img/checked.svg") center no-repeat;
+}
+.form--block__button {
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	padding: 16.5px 117px;
+	display: flex;
+	cursor: pointer;
+}
+.form--block__button:hover{
+	background: linear-gradient(55.95deg, #d63732 0%, #c94c04 100%);
+}

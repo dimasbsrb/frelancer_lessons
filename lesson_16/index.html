@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson_16</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wraper">
+        <header class="header">
+            
+        </header>
+        <main class="page">
+            <div class="page__container">
+                <div class="page__image">
+                    <img src="img/illustration.svg" alt="illustration">
+                </div>
+                <div class="page__block block--page">
+                    <h5 class="form--block__subtitle">Any questions?</h5>
+                    <h1 class="form--block__title">Drop us a line</h1>
+                    <form class="block--page__form form--block" action="https://jsonplaceholder.typicode.com/posts">
+                        <div class="form--block__info">
+                            <label class="form--block__label" for="first-name">First Name*</label>
+                            <input class="form--block__input" id="first-name" autocomplete="off" placeholder="Your first name" name="first name" type="text">
+                        </div>
+                        <div class="form--block__info">
+                            <label class="form--block__label" for="last-name">Last  Name*</label>
+                            <input class="form--block__input" id="last-name" autocomplete="off" placeholder="Your last name" name="last name" type="text">
+                        </div>
+                        <div class="form--block__info">
+                            <label class="form--block__label" for="email">Email*</label>
+                            <input class="form--block__input" id="email" autocomplete="off" placeholder="Your working email" name="email" type="email">
+                        </div>
+                        <div class="form--block__info">
+                            <label class="form--block__label" for="phone">Phone</label>
+                            <input class="form--block__input" id="phone" autocomplete="off" placeholder="Your phone number" name="phone" type="tel">
+                        </div>
+                        <div class="form--block__area area--block">
+                            <label class="area--block__label" for="mesage">Mesage*</label>
+                            <textarea name="mesage" id="mesage" placeholder="Your message"></textarea>
+                        </div>
+                        <div class="form--block__check">
+                            <input id="check"  class="form--block__input form--block__input_chk" required autocomplete="off" name="agree" type="checkbox">
+                            <label class="form--block__label label__check" for="check">I agree to receive communications from Createx Online School</label>
+                        </div>
+                            <button class="form--block__button" type="submit">Send message</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer class="footer"></footer>
+    </div>
+</body>
+</html>
